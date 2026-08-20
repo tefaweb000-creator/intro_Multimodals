@@ -12,7 +12,7 @@ st.write("el texto escrito es", texto)
 st.subheader ("ahora usamos dos columnas")
 col1,col2 = st.columns(2)
 
-with col1;
+with col1:
     st.subheader ("primera")
     st.write("el texto escrito es", texto)
     resp = st.checkbox ("estoy de acuerdo")
