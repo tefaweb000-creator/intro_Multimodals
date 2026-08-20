@@ -20,7 +20,15 @@ with col1:
 
 with col2:
   st.subheader ("y la otra")
-modo= st.radio ("qué modalidad es esto", ("visual", "auditiva", "táctil"))
+  modo= st.radio ("qué modalidad es esto", ("visual", "auditiva", "táctil"))
+  if modo es == "visual":
+      st.write ("eche, elegiste la vista")
+  if modo es == "auditiva":
+      st.write ("eche, escuchas bacano")
+  if modo es == "táctil":
+      st.write ("elegiste lo tactil")
+  
+
 
                       
       
