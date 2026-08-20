@@ -1,5 +1,5 @@
 import streamlit as st
-from PIL import image 
+from PIL import Image 
 
 st.title("Tengo más trabajos que vida")
 st.header ("ya no aguanto más")
