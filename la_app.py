@@ -7,7 +7,7 @@ st.write("y tengo hambre")
 image= Image.open("perrolllora.png")
 st.image(image,caption= "interfaces multimodales")
 
-texto= st.text_input ("¿qué puedo tragar?)
+texto= st.text_input ("¿qué puedo tragar?")
 st.write("el texto escrito es", texto)
 st.subheader ("ahora usamos dos columnas")
 col1,col2 = st(columns(2)
