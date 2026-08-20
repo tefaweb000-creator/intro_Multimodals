@@ -14,7 +14,7 @@ col1,col2 = st.columns(2)
 
 with col1:
     st.subheader ("primera")
-    st.write("el texto escrito es", texto)
+    st.write("yo quiero ", texto)
     resp = st.checkbox ("estoy de acuerdo")
     if resp: st.write ("correcto")
 
