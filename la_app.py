@@ -10,7 +10,7 @@ st.image(image,caption= "interfaces multimodales")
 texto= st.text_input ("¿qué puedo tragar?")
 st.write("el texto escrito es", texto)
 st.subheader ("ahora usamos dos columnas")
-col1,col2 = st(columns(2)
+col1,col2 = st.columns(2)
 
 with col1;
     st.subheader ("primera")
