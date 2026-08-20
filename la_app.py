@@ -16,7 +16,7 @@ with col1:
     st.subheader ("primera")
     st.write("el texto escrito es", texto)
     resp = st.checkbox ("estoy de acuerdo")
-    if resp; st.write ("correcto")
+    if resp: st.write ("correcto")
 
 with col2:
   st.subheader ("y la otra")
